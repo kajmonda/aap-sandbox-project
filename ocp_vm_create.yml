@@ -56,8 +56,7 @@
                           bus: virtio
                         name: cloudinitdisk
                     interfaces:
-                      - macAddress: "02:f3:be:00:00:{{ '%02x' | format(10) }}"
-                        masquerade: {}
+                      - masquerade: {}
                         model: virtio
                         name: default
                     networkInterfaceMultiqueue: true
